@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background: #000;
+  color: white;
+  font-family: poppins, segoe ui;
+}
+main {
+  margin: 0 auto;
+  width: 75%;
+}
+/*-------- General ----------*/
+.big-title {
+  font-size: 3rem;
+  text-align: center;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: grey;
+}
+.small-title {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: orange;
+}
+/*-------- Navigation ----------*/
+nav {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 80px auto;
+}
+nav .menu-items a {
+  margin: 0 20px;
+}
+nav .menu-social a {
+  margin: 0 10px;
+}
+nav a {
+  text-decoration: none;
+}
+/*-------- Hero ----------*/
+.hero-image {
+  width: 100%;
+}
+/*-------- Brands ----------*/
+.brands-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+.brands-icons {
+  width: 100px;
+  height: 70px;
+  border: 1px solid white;
+}
+/*-------- Services ----------*/
+.services-cards {
+  width: 100%;
+  background-color: grey;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards {
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 180px;
+  height: 250px;
+  background: linear-gradient(
+    107.5deg,
+    rgba(192, 194, 205, 0.5) -15.59%,
+    rgba(146, 149, 167, 0.475991) 8.1%,
+    rgba(11, 19, 58, 0.406563) 45.67%,
+    rgba(108, 108, 108, 0.355781) 100%,
+    rgba(222, 222, 222, 0.305) 159.98%
+  );
+  box-shadow: 0px 4px 100px 6px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(50px);
+}
+/*-------- Works ----------*/
+
+/*-------- Contact ----------*/
